@@ -1,3 +1,13 @@
+@media (max-width: 1620px) {
+	.own-restaurant__form button {
+		margin-top: 100px;
+
+		padding: 30px 40px;
+		font-size: 25px;
+	}
+
+}
+
 @media (max-width: 1480px) {
 	.header {
 		height: 900px;
@@ -15,6 +25,49 @@
 		font-size: 97px;
 		margin-top: 200px;
 
+	}
+
+	.own-restaurant__form-image img {
+		padding: 50px 150px 100px 150px;
+	}
+
+	.own-restaurant__form-image {
+		margin-top: 143px;
+		margin-bottom: 48px;
+	}
+}
+
+
+@media (max-width: 1366px) {
+	.own-restaurant__form input {
+		width: 540px;
+		margin-left: 56px;
+		display: block;
+		margin-bottom: 22px;
+		border: none;
+		border-radius: 10px;
+		font-size: 20px;
+		font-weight: 700;
+		padding: 14px 17px;
+	}
+
+	.own-restaurant__form-image a {
+		width: 238px;
+		margin: 0 auto;
+		display: block;
+		text-align: center;
+		font-size: 21px;
+		font-weight: 700;
+		color: black;
+		text-decoration: none;
+	}
+
+	.own-restaurant__form-image img {
+		padding: 50px 70px 50px 70px;
+	}
+
+	.own-restaurant__form-image {
+		margin-bottom: 8px;
 	}
 }
 
@@ -51,6 +104,37 @@
 
 	.header__link {
 		font-size: 18px;
+	}
+
+	.own-restaurant__form-inner {
+		flex-direction: column;
+	}
+
+
+	.own-restaurant__form-text {
+		text-align: center;
+	}
+
+	.own-restaurant__form input {
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+
+	.own-restaurant__form-image {
+		margin: 0 auto;
+		margin-top: 35px;
+	}
+
+	.own-restaurant__form-image img {
+		margin: 0 auto;
+		padding: 50px 70px 50px 70px;
+
+	}
+
+	.own-restaurant__form button {
+		margin-top: 60px;
+		padding: 30px 40px;
+		font-size: 15px;
 	}
 }
 
@@ -117,6 +201,61 @@
 	}
 
 
+}
+
+@media (max-width: 680px) {
+	.own-restaurant__form-text {
+		font-size: 30px;
+		font-weight: 700;
+		margin: 34px 0 36px 25px;
+		text-align: left;
+	}
+}
+
+@media (max-width: 590px) {
+	.own-restaurant__title {
+		font-size: 30px;
+		font-weight: 700;
+		margin-bottom: 35px;
+		text-align: center;
+	}
+
+	.own-restaurant__form-text {
+		font-size: 25px;
+		font-weight: 700;
+		margin: 34px 0 36px 25px;
+		text-align: center;
+	}
+
+	.own-restaurant__form input {
+		width: 460px;
+		margin-bottom: 20px;
+	}
+
+	.own-restaurant__form-image img {
+		margin: 0 auto;
+		padding: 40px 60px 50px 60px;
+		width: 65%;
+	}
+}
+
+@media (max-width:502px) {
+	.own-restaurant__form input {
+		width: 320px;
+		margin-bottom: 20px;
+		font-size: 14px;
+	}
+
+	.own-restaurant__form-image a {
+		width: 163px;
+		margin: 0 auto;
+		display: block;
+		text-align: center;
+		font-size: 14px;
+		font-weight: 700;
+		color: black;
+		text-decoration: none;
+	}
 }
 
 @media (max-width: 460px) {

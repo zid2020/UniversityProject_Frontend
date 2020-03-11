@@ -96,3 +96,89 @@ html {
 		text-align: right;
 	}
 }
+
+.own-restaurant {
+	padding: 86px 0 46px 0;
+	background-image: url("../images/form/watermellon.png");
+	background-size: cover;
+
+	&__title {
+		font-size: 40px;
+		font-weight: 700;
+		margin-bottom: 57px;
+	}
+
+	&__form {
+		background-color: #e9e9eb;
+		padding-bottom: 46px;
+
+		&-inner {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		&-text {
+			font-size: 36px;
+			font-weight: 700;
+			margin: 47px 0 56px 56px;
+		}
+
+		input {
+			width: 633px;
+			margin-left: 56px;
+			display: block;
+			margin-bottom: 52px;
+			border: none;
+			border-radius: 10px;
+
+			font-size: 30px;
+			font-weight: 700;
+			padding: 14px 17px;
+			outline: none;
+
+		}
+
+		&-image {
+			background-color: #fff;
+			margin-top: 122px;
+			margin-right: 70px;
+			margin-bottom: 27px;
+
+			img {
+				display: block;
+				text-align: center;
+				padding: 181px 207px 115px 196px;
+			}
+
+			a {
+				width: 293px;
+				margin: 0 auto;
+				display: block;
+				text-align: center;
+				font-size: 36px;
+				font-weight: 700;
+				color: black;
+				text-decoration: none;
+			}
+		}
+
+		button {
+			display: block;
+			margin: 0 auto;
+			margin-top: 334px;
+			border-radius: 10px;
+			border: 6px solid #ff0000;
+			background-color: #f58686;
+			padding: 102px 195px 87px 174px;
+
+			color: #ffffff;
+			font-size: 60px;
+			font-weight: 700;
+
+			&:hover {
+				border: 6px solid #d19898;
+				color: black;
+			}
+		}
+	}
+}
