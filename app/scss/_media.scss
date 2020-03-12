@@ -74,6 +74,10 @@
 	.own-restaurant__form-image {
 		margin-bottom: 8px;
 	}
+
+	.profil .profil-our__form-btn {
+		margin-top: 100px;
+	}
 }
 
 @media (max-width: 1280px) {
@@ -253,6 +257,23 @@
 
 	.footer__registratsia {
 		margin-top: 50px;
+	}
+
+	.profil .profil-our__form label {
+		font-size: 20px;
+	}
+
+	.profil .profil-our__form input {
+		font-size: 25px;
+		margin-bottom: 30px;
+	}
+
+	.profil .profil-our__form-title {
+		font-size: 35px;
+	}
+
+	.profil .profil-our__form-btn {
+		margin-top: 60px;
 	}
 }
 
