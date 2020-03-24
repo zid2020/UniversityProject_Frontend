@@ -232,7 +232,7 @@ body {
 			font-weight: 500;
 			text-align: center;
 
-			a {
+			restaurant-choice a {
 				color: #a81515;
 				text-decoration: none;
 			}
@@ -340,6 +340,148 @@ body {
 				}
 			}
 
+		}
+	}
+}
+
+.restaurant-choice {
+	background-image: url("../images/form/watermellon.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 100px;
+
+	&__title {
+		padding-top: 89px;
+		font-size: 40px;
+		font-weight: 700;
+	}
+
+	&__items {
+		margin-top: 68px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__item {
+		background-color: #f5ccdd;
+		padding-bottom: 28px;
+		margin-bottom: 75px;
+
+		&-inner {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		&-restaurant {
+			font-size: 30px;
+			font-weight: 700;
+			margin: 36px 0 0 17px;
+		}
+
+		&-circle {
+			width: 85px;
+			height: 77px;
+			border-radius: 50%;
+			background-color: #e2b1b6;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin: 12px 23px 0 0;
+
+			&-num {
+				color: #fa2a2a;
+				font-weight: 700;
+				font-size: 60px;
+			}
+		}
+
+		&-text {
+			margin: 74px 0 0 14px;
+			font-weight: 400;
+			font-size: 30px;
+		}
+
+		&-btn {
+			margin-top: 58px;
+			margin-right: 23px;
+
+			margin-left: auto;
+			display: block;
+			width: 274px;
+			height: 107px;
+			background-color: #b83938;
+			border: none;
+			border-radius: 10px;
+			text-align: center;
+			font-size: 36px;
+			font-weight: 700;
+			color: #fff;
+
+			&:hover {
+				color: #000;
+			}
+		}
+
+	}
+
+	&__btn {
+		display: block;
+		margin: 0 auto;
+		margin-top: 82px;
+
+		width: 320px;
+		height: 115px;
+		border-radius: 10px;
+		border: 6px solid #ff0000;
+		background-color: #f58686;
+
+		font-size: 25px;
+		font-weight: 700;
+		color: #fff;
+
+		&:hover {
+			color: #000;
+		}
+	}
+}
+
+.services {
+	padding: 100px 0;
+	background-color: #e9e9eb;
+
+	&__title {
+		color: #2c2c2c;
+		font-size: 50px;
+		font-weight: 700;
+		text-align: center;
+	}
+
+	&__box {
+		&-inner {
+			display: flex;
+			justify-content: space-around;
+			margin-top: 140px;
+		}
+
+		text-align: center;
+
+		img {
+			width: 210px;
+			height: 180px;
+		}
+
+		&-title {
+			height: 85px;
+			margin-top: 45px;
+			font-size: 38px;
+			font-weight: 700;
+		}
+
+		&-text {
+			margin-top: 30px;
+			color: #151515;
+			font-size: 34px;
+			font-weight: 400;
 		}
 	}
 }

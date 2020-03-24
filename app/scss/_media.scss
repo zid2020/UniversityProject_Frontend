@@ -169,6 +169,18 @@
 		padding: 30px 40px;
 		font-size: 15px;
 	}
+
+	.services__box-inner {
+		flex-direction: column;
+	}
+
+	.services__box-text {
+		margin-top: 0;
+	}
+
+	.services__box {
+		margin-bottom: 50px;
+	}
 }
 
 @media (max-width: 990px) {
